@@ -1,0 +1,25 @@
+{
+  "name": "Butterfly",
+  "version": "0.1.0",
+  "summary": "A short description of Butterfly.",
+  "description": "An optional longer description of Butterfly\n\n* Markdown format.\n* Don't worry about the indent, we strip it!",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Butterfly",
+  "license": "MIT",
+  "authors": {
+    "James Campbell": "jscampbell.05@googlemail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Butterfly.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "Butterfly": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

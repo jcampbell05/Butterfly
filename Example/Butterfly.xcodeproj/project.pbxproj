@@ -243,7 +243,7 @@
 		6003F582195388D10070C39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = BTF;
+				CLASSPREFIX = BFLY;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "James Campbell";
 				TargetAttributes = {
