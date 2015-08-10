@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'Butterfly_Example', :exclusive => true do
+  pod "Butterfly", :path => "../"
+end
+
+target 'Butterfly_Tests', :exclusive => true do
+  pod "Butterfly", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
