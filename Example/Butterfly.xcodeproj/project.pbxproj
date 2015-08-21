@@ -20,6 +20,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		745E12651B86536B008070A1 /* BFLYSessionSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 745E12631B86536B008070A1 /* BFLYSessionSpec.m */; };
+		746DB1DE1B87A4FE005A0557 /* BFLYSessionTaskSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DB1DD1B87A4FE005A0557 /* BFLYSessionTaskSpec.m */; };
 		808608BFC69327EC8EED5893 /* Pods_Butterfly_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFBCDB126F48C26811058A5 /* Pods_Butterfly_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		EE50E5E0C74D28A994DD47FC /* Pods_Butterfly_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7AE2392681151FCA725326 /* Pods_Butterfly_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -61,6 +62,7 @@
 		69672091C56C8CAF88F641F8 /* Pods-Butterfly_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Butterfly_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Butterfly_Tests/Pods-Butterfly_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6C7AE2392681151FCA725326 /* Pods_Butterfly_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Butterfly_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		745E12631B86536B008070A1 /* BFLYSessionSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFLYSessionSpec.m; sourceTree = "<group>"; };
+		746DB1DD1B87A4FE005A0557 /* BFLYSessionTaskSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFLYSessionTaskSpec.m; sourceTree = "<group>"; };
 		7516611A0B06A53C83253D7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E0A795DD8C063E2122233308 /* Pods-Butterfly_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Butterfly_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Butterfly_Tests/Pods-Butterfly_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 			children = (
 				745E12631B86536B008070A1 /* BFLYSessionSpec.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				746DB1DD1B87A4FE005A0557 /* BFLYSessionTaskSpec.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				745E12651B86536B008070A1 /* BFLYSessionSpec.m in Sources */,
+				746DB1DE1B87A4FE005A0557 /* BFLYSessionTaskSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
