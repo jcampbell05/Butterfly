@@ -76,6 +76,13 @@
 		7330D1878F0655DC29A74A77C9BCF12D /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C4950C41011CB395A279183DD414A26 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		740834A3C4A856EACE95C55C2A789A28 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C785C425D58A4F0625C61854B89C76 /* FBSnapshotTestCase.framework */; };
 		745B056A49964A442AAB60A0CF0D7E10 /* ExpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 31B396EB4FD6BE12A8D49C28B5A21BEF /* ExpectaSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		746DB1D61B872B8D005A0557 /* BFLYSessionTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 746DB1D41B872B8D005A0557 /* BFLYSessionTask.h */; };
+		746DB1D71B872B8D005A0557 /* BFLYSessionTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 746DB1D41B872B8D005A0557 /* BFLYSessionTask.h */; };
+		746DB1D81B872B8D005A0557 /* BFLYSessionTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 746DB1D41B872B8D005A0557 /* BFLYSessionTask.h */; };
+		746DB1D91B872B8D005A0557 /* BFLYSessionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DB1D51B872B8D005A0557 /* BFLYSessionTask.m */; };
+		746DB1DA1B872B8D005A0557 /* BFLYSessionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DB1D51B872B8D005A0557 /* BFLYSessionTask.m */; };
+		746DB1DB1B872B8D005A0557 /* BFLYSessionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DB1D51B872B8D005A0557 /* BFLYSessionTask.m */; };
+		746DB1DC1B872B8D005A0557 /* BFLYSessionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DB1D51B872B8D005A0557 /* BFLYSessionTask.m */; };
 		79E8AD9EF49B8063FCF4AC7CE942B6CC /* EXPMatchers+beInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = B036CB7038BF5E8438EA6F22E9415EF6 /* EXPMatchers+beInstanceOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A19D30109498064FC0B4E674D3134E8 /* EXPMatchers+raise.h in Headers */ = {isa = PBXBuildFile; fileRef = DDFF4C2E12AC8E3322744F304C030F24 /* EXPMatchers+raise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BF52760DFAC6360A02A5D9A39FC4FE1 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179D45D191B9955D46B7B831C065C030 /* SwiftSupport.swift */; };
@@ -305,6 +312,8 @@
 		71D7F8B961E10BD29F4EB78FD8C287F5 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		73C8783AE611F30F114148CC8492DC9C /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		74400FB7E12140F7EE67AC3DF75C75D0 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
+		746DB1D41B872B8D005A0557 /* BFLYSessionTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFLYSessionTask.h; sourceTree = "<group>"; };
+		746DB1D51B872B8D005A0557 /* BFLYSessionTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFLYSessionTask.m; sourceTree = "<group>"; };
 		747F55123BA98103B27DD8DB36634015 /* Pods-Butterfly_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Butterfly_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7642489D328EF68336CCFD6B346C34E3 /* Expecta+Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Expecta+Snapshots.modulemap"; sourceTree = "<group>"; };
 		779C6749EF1F466616DA0ACD3B76F04E /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
@@ -843,6 +852,8 @@
 			children = (
 				4BBEC16E325A77133CBBCAF22D2B941E /* BFLYSession.h */,
 				D38DBB2AC15077D58CC5851C14EA6C7C /* BFLYSession.m */,
+				746DB1D41B872B8D005A0557 /* BFLYSessionTask.h */,
+				746DB1D51B872B8D005A0557 /* BFLYSessionTask.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -887,6 +898,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38A273F262923B0487A64D6B77F9944C /* BFLYSession.h in Headers */,
+				746DB1D61B872B8D005A0557 /* BFLYSessionTask.h in Headers */,
 				32E46ACF4CB55ED4F1C7B46714357F41 /* Butterfly-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -957,6 +969,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				610FC91D15258C8797CE0F1ABFE9FA72 /* Pods-Butterfly_Example-umbrella.h in Headers */,
+				746DB1D71B872B8D005A0557 /* BFLYSessionTask.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -975,6 +988,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E73ADFB063DBCFDB86C5AF3DD336C02 /* Pods-Butterfly_Tests-umbrella.h in Headers */,
+				746DB1D81B872B8D005A0557 /* BFLYSessionTask.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1183,6 +1197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746DB1DC1B872B8D005A0557 /* BFLYSessionTask.m in Sources */,
 				901EEB2FE9D60709178B5B2682240CB0 /* Pods-Butterfly_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1233,6 +1248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746DB1DB1B872B8D005A0557 /* BFLYSessionTask.m in Sources */,
 				2EEB9A589A945CC2226446D0D1456D4A /* Pods-Butterfly_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1260,6 +1276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F61D192286FEC8BEF273E2491AB08F75 /* BFLYSession.m in Sources */,
+				746DB1D91B872B8D005A0557 /* BFLYSessionTask.m in Sources */,
 				236F83B110D9F76E85F6FBC5F2948BFD /* Butterfly-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1283,6 +1300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746DB1DA1B872B8D005A0557 /* BFLYSessionTask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
