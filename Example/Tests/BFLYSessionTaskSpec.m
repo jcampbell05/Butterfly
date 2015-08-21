@@ -12,7 +12,8 @@ SpecBegin(SessionTask)
 
 describe(@"When creating a task", ^
 {
-    BFLYSessionTask *task = [[BFLYSessionTask alloc] initWithSessionTask:nil];
+    NSURLSessionTask *underlyingTask = [[NSURLSessionTask alloc] init];
+    BFLYSessionTask *task = [[BFLYSessionTask alloc] initWithSessionTask:underlyingTask];
     
     it(@"should return an instance", ^
     {
