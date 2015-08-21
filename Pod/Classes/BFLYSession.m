@@ -49,7 +49,7 @@
     
     if (self)
     {
-        NSAssert(configuration, @"A NSURLSession configuration must be provided");
+        NSAssert(configuration, @"A NSURLSession configuration must be provided when creating a BFLYSession");
         
         self.configuration = configuration;
         self.session = [NSURLSession sessionWithConfiguration:self.configuration];
@@ -62,6 +62,8 @@
 
 - (nullable id)dataTaskWithRequest:(nonnull NSURLRequest *)request
 {
+    NSAssert(request, @"A Request must be provided when creating a BFLYDataSessionTask");
+    
     return [self.session dataTaskWithRequest:request];
 }
 
