@@ -8,12 +8,27 @@
 
 #import <Foundation/Foundation.h>
 
+@class BFLYSessionTask;
+
+//Block types for BFLYSessionTasks.
+
+typedef void(^BFLYSessionTaskCompletionBlock)( BFLYSessionTask * __nonnull task);
+
 /**
  BFLYSessionTask is a wrapper around NSURLSessionTask.
  
  @since 1.0
  */
 @interface BFLYSessionTask : NSObject
+
+#pragma mark - Responding to updates
+
+/**
+ Block called when the task completes.
+ 
+ @since 1.0
+ */
+@property (nonatomic, nullable, copy) BFLYSessionTaskCompletionBlock onCompletion;
 
 #pragma mark - Creating a task
 

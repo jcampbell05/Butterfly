@@ -27,7 +27,7 @@
 
 #define BFLYMutableDictionary(key, value) \
 \
-NSMutableDictionary <key, value>
+NSMutableDictionary<key, value>
 
 #else
 
