@@ -44,8 +44,6 @@
     
     dispatch_once(&onceToken, ^
                   {
-                      
-                      
                       sharedSession = [[BFLYSession alloc] init];
                   });
     
