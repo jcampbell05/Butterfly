@@ -44,12 +44,26 @@
     
     dispatch_once(&onceToken, ^
                   {
-                      NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
                       
-                      sharedSession = [[BFLYSession alloc] initWithConfiguration:configuration];
+                      
+                      sharedSession = [[BFLYSession alloc] init];
                   });
     
     return sharedSession;
+}
+
+- (nullable instancetype)init
+{
+    NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+    
+    self = [self initWithConfiguration:configuration];
+    
+    if (self)
+    {
+        
+    }
+    
+    return self;
 }
 
 - (nullable instancetype)initWithConfiguration:(nonnull NSURLSessionConfiguration *)configuration
