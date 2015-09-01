@@ -11,7 +11,6 @@
 @class BFLYSessionTask;
 
 //Block types for BFLYSessionTasks.
-
 typedef void(^BFLYSessionTaskCompletionBlock)( BFLYSessionTask * __nonnull task);
 
 /**
