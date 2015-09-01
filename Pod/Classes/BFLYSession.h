@@ -8,8 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+#import "BFLYSessionTask.h"
+
 /**
- This is the Butterfly Wrapper Class for NSURLSession.
+ BFLYSession is a wrapper around NSURLSession.
  
  @since 1.0
  */
@@ -22,7 +24,7 @@
  */
 @property (nonnull, readonly, copy) NSURLSessionConfiguration *configuration;
 
-#pragma mark - Creating a Session
+#pragma mark - Creating a session
 
 /**
  The shared session uses the currently set global NSURLCache,
@@ -56,6 +58,6 @@
  
  @since 1.0
  */
-- (nullable id)dataTaskWithRequest:(nonnull NSURLRequest *)request;
+- (nullable BFLYSessionTask *)dataTaskWithRequest:(nonnull NSURLRequest *)request;
 
 @end

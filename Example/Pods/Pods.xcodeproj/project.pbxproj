@@ -320,6 +320,7 @@
 		746DB1DF1B87A845005A0557 /* BFLYSessionTaskContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFLYSessionTaskContext.h; sourceTree = "<group>"; };
 		746DB1E01B87A845005A0557 /* BFLYSessionTaskContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFLYSessionTaskContext.m; sourceTree = "<group>"; };
 		747F55123BA98103B27DD8DB36634015 /* Pods-Butterfly_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Butterfly_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		74AD39091B95E508007DF712 /* BFLYCollections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFLYCollections.h; sourceTree = "<group>"; };
 		7642489D328EF68336CCFD6B346C34E3 /* Expecta+Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Expecta+Snapshots.modulemap"; sourceTree = "<group>"; };
 		77BFEC5D9B6F8F50AF18916C9D160754 /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
 		77D671040D97FB0A6896A68CFAEFE3AC /* Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-prefix.pch"; sourceTree = "<group>"; };
@@ -566,6 +567,7 @@
 				051D6F1571A06F266ADE2BA85E91F712 /* BFLYSessionTask.m */,
 				746DB1DF1B87A845005A0557 /* BFLYSessionTaskContext.h */,
 				746DB1E01B87A845005A0557 /* BFLYSessionTaskContext.m */,
+				74AD39091B95E508007DF712 /* BFLYCollections.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
