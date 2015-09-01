@@ -10,7 +10,7 @@
 
 #import "BFLYCollections.h"
 
-@interface BFLYSession ()
+@interface BFLYSession ()<NSURLSessionDelegate>
 
 /**
  See header.
@@ -73,7 +73,10 @@
         NSAssert(configuration, @"A NSURLSession configuration must be provided when creating a BFLYSession");
         
         self.configuration = configuration;
-        self.underlyingSession = [NSURLSession sessionWithConfiguration:self.configuration];
+        
+        self.underlyingSession = [NSURLSession sessionWithConfiguration:self.configuration
+                                                               delegate:self
+                                                          delegateQueue:nil];
     }
     
     return self;
@@ -92,5 +95,7 @@
     
     return task;
 }
+
+#pragma mark - <NSURLSessionDelegate>
 
 @end
