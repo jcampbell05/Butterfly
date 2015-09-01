@@ -10,7 +10,7 @@
 
 #import "BFLYCollections.h"
 
-@interface BFLYSession ()<NSURLSessionDelegate>
+@interface BFLYSession ()<NSURLSessionDelegate, NSURLSessionTaskDelegate>
 
 /**
  See header.
@@ -97,5 +97,14 @@
 }
 
 #pragma mark - <NSURLSessionDelegate>
+
+#pragma mark - <NSURLSessionTaskDelegate>
+
+- (void)URLSession:(NSURLSession *)session
+              task:(NSURLSessionTask *)task
+didCompleteWithError:(NSError *)error
+{
+    
+}
 
 @end
