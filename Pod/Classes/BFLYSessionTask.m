@@ -23,6 +23,16 @@
 
 #pragma mark - Creating a task
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wfigure-out-correct-warning-flag"
+
+- (nullable instancetype)init
+{
+    return nil;
+}
+
+#pragma clang diagnostic pop
+
 - (nullable instancetype)initWithSessionTask:(nonnull NSURLSessionTask *)sessionTask
 {
     self = [super init];

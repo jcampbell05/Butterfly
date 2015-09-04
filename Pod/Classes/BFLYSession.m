@@ -101,10 +101,16 @@
 #pragma mark - <NSURLSessionTaskDelegate>
 
 - (void)URLSession:(NSURLSession *)session
-              task:(NSURLSessionTask *)task
+              task:(NSURLSessionTask *)underlyingTask
 didCompleteWithError:(NSError *)error
 {
-    
+#warning TODO: Lets make the task fail.
+//    BFLYSessionTask *task = self.taskTable[@(underlyingTask.taskIdentifier)];
+//    
+//    if (task.onCompletion)
+//    {
+//        task.onCompletion(task);
+//    }
 }
 
 @end
